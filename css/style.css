@@ -58,7 +58,7 @@
 }
 
 .tarjetaPresentacion{
-    height: 700px;
+    height: 600px;
     width: 600px;
     border: 1px solid #ccc; 
     border-radius: 10px; 
@@ -75,7 +75,7 @@
     width: 600px;
 }
 
-img{
+.tarjetaPresentacion img{
     height: 200px;
     width: 200px;
     border: 2px solid white;
@@ -93,7 +93,7 @@ img{
     margin: 20px;
 }
 
-h1{
+.tarjetaEducacion h1{
     font-size: 35px;
     font-weight: bold;
     margin-bottom: 20px;
@@ -135,27 +135,72 @@ input{
     margin-bottom: 2px;
 }
 
+.derecha{
+    margin-left: 100px;
+}
+
 .solicitudes{
     display: flex;
-    /* flex-wrap: wrap; */
     flex-direction: column;
-    height: 300px;
-    width: 500px;
+    width: 400px;
     border-radius: 10px; 
     overflow: hidden; 
     font-family: Arial, sans-serif; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
-    margin: 30px;
+    margin: 30px 30px 30px 100px;
     padding: 15px;
 }
 
 .solicitud{
     display: flex;
-    
+    padding: 10px;
 }
+
+.solicitudes h3{
+    margin-bottom: 20px;
+}
+
 .solicitudes img{
-    height: 20px;
-    width: 20px;
-    padding: 0;
-    margin: 0;
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+    padding-right: 5px;
+}
+
+.solicitud p{
+    font-size: 18px;
+    padding: 5px;
+}
+
+.conexiones{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    border-radius: 10px; 
+    overflow: hidden; 
+    font-family: Arial, sans-serif; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    margin: 30px 30px 30px 100px;
+    padding: 15px;
+}
+
+.conexion{
+    display: flex;
+    padding: 10px;
+}
+
+.conexiones img{
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+    border: 1px solid lightgray;
+}
+
+.conexiones p{
+    font-size: 18px;
+    padding: 5px;
+}
+
+.conexiones h3{
+    margin-bottom: 20px;
 }
