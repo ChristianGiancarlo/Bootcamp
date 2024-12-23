@@ -23,10 +23,11 @@
                 <div class="superior"></div>
                 <img src="images/perfil-landing-page.png" alt="foto">
                 <div class="presentacion">
-                    <h1>Christian Mimbela</h1>
+                    <h1 id="nombre">Christian Mimbela</h1>
                     <h6>Rancagua, Chile</h6>
                     <h6>Programador Full Stack Java | Apasionado por el aprendizaje</h6>
                     <p>Soy un desarrollador full stack con multiples conociminetos en distintas tecnologias listo para cualquier desafio.</p>
+                    <input type="button" value="edit perfil" id="editar" onclick="cambiarNombre()">
                 </div>
             </div>
             <div class="tarjetaEducacion">
@@ -39,22 +40,22 @@
 
         <div class="derecha">
             <div class="solicitudes">
-                <h3>Solicitudes de Conexión (2)</h3>
+                <h3>Solicitudes de Conexión (<span id="numSolicitud">2</span>)</h3>
                 <div class="solicitud">
                     <img src="images/perfil1.avif" alt="">
                     <p>Kai Schoder</p>
-                    <img src="images/comprobado.png" alt="check">
-                    <img src="images/boton-eliminar.png" alt="eliminar">
+                    <img src="images/comprobado.png" alt="check" class="botonSolicitud" onclick="aumentarConexion(this)">
+                    <img src="images/boton-eliminar.png" alt="eliminar" class="botonSolicitud">
                 </div>
                 <div class="solicitud">
                     <img src="images/perfil2.webp" alt="">
                     <p> Amira El-Masry</p>
-                    <img src="images/comprobado.png" alt="check">
-                    <img src="images/boton-eliminar.png" alt="eliminar">
+                    <img src="images/comprobado.png" alt="check" class="botonSolicitud" onclick="aumentarConexion(this)">
+                    <img src="images/boton-eliminar.png" alt="eliminar" class="botonSolicitud">
                 </div>
             </div>
             <div class="conexiones">
-                <h3>Tus conexiones (+4)</h3>
+                <h3>Tus conexiones (+<span id="numConexion">4</span>)</h3>
                 <div class="conexion">
                     <img src="images/perfil3.jpeg" alt="">
                     <p>Adrien Desplatz</p>
@@ -74,7 +75,7 @@
             </div>
         </div>
     </div>
-
     
+    <script src="script/script.js"></script>
 </body>
 </html>

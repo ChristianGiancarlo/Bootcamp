@@ -117,7 +117,7 @@ input{
     border-radius: 5px;
     cursor: pointer;
     margin: 20px;
-    margin-left: 30px;
+    margin-left: 0px;
 }
 
 .tarjetaEducacion{
@@ -170,6 +170,10 @@ input{
 .solicitud p{
     font-size: 18px;
     padding: 5px;
+}
+
+.botonSolicitud{
+    cursor: pointer;
 }
 
 .conexiones{
